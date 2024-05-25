@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Journaling</title>
+    <style>
+      body {
+        background: #fdb44b;
+      }
+
+      h1 {
+        text-align: center;
+        font-family: serif;
+        font-size: 48px;
+        font-weight: normal;
+      }
+
+      h2 {
+        text-align: center;
+        font-family: serif;
+        font-size: 36px;
+        font-weight: normal;
+        color: black;
+      }
+
+      img {
+        max-width: 600px;
+        margin: 8px auto;
+        display: block;
+        border-radius: 10px;
+      }
+
+      button {
+        display: block;
+        margin: 0 auto;
+        border: 1px solid #bbe4e9;
+        font-size: 20px;
+        border-radius: 8px;
+        padding: 10px 15px;
+        transition: all 200ms ease-in-out;
+        background: white;
+      }
+
+      button:hover {
+        background: #bbe4e9;
+      }
+
+      p {
+        text-align: center;
+        font-size: 20px;
+        line-height: 1.5;
+      }
+      .container {
+        background: white;
+        max-width: 600px;
+        padding: 20px;
+        border-radius: 10px;
+        margin: 20px auto;
+      }
+
+      footer {
+        text-align: center;
+        font-size: 18px;
+      }
+      h2,
+      p {
+        color: black;
+      }
+
+      .theme-button {
+        font-size: 14px;
+        background-color: #fdb44b;
+        color: white;
+        padding: 5px 8px;
+      }
+      .theme-button:hover {
+        color: #fdb44b;
+        background: white;
+        transition: all 200ms ease-in-out;
+      }
+
+      .journal-intro-pic {
+        border-radius: 10px;
+        transition: all 200ms ease-in-out;
+        filter: contrast(50%);
+      }
+
+      .journal-intro-pic:hover {
+        filter: brightness(100%);
+        transform: scale(1.1);
+      }
+
+      .jounal-pic-two {
+        border-radius: 10px;
+        transition: all 200ms ease-in-out;
+        filter: contrast(50%);
+      }
+
+      .jounal-pic-two:hover {
+        transform: scale(1.1);
+        filter: brightness(100%);
+      }
+
+      .journal-pic-three {
+        border-radius: 10px;
+        transition: all 200ms ease-in-out;
+        filter: contrast(50%);
+      }
+      .journal-pic-three:hover {
+        transform: scale(1.1);
+        filter: brightness(100%);
+      }
+
+      .journal-pic-four {
+        border-radius: 10px;
+        transition: all 200ms ease-in-out;
+        filter: contrast(50%);
+      }
+      .journal-pic-four:hover {
+        transform: scale(1.1);
+        filter: brightness(100%);
+      }
+      .link {
+        text-align: center;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: 250px 250px;
+        grid-gap: 8px;
+        justify-content: center;
+      }
+
+      .grid img {
+        width: 100%;
+      }
+
+      .dark {
+        background: #5c5470;
+      }
+
+      .dark .container {
+        background: rgba(255, 255, 255, 0.1);
+        color: white;
+      }
+      .dark a {
+        color: #fdb44b;
+      }
+      .light {
+        background: #fdb44b;
+      }
+    </style>
+  </head>
+  <body class="dark" class="light">
+    <button class="theme-button">Change Theme</button>
+    <div class="container">
+      <h1>Journaling</h1>
+      <h2>Journaling for Emotional Wellness</h2>
+      <div class="first-image">
+        <img
+          src="https://images.unsplash.com/photo-1528938102132-4a9276b8e320?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8am91cm5hbHxlbnwwfHwwfHx8MA%3D%3D"
+        />
+      </div>
+      <div class="grid">
+        <img
+          src="https://images.unsplash.com/photo-1521134976835-9963f2185519?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGpvdXJuYWx8ZW58MHx8MHx8fDA%3D"
+          class="journal-intro-pic"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1582137490248-c53207ec5602?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGpvdXJuYWx8ZW58MHx8MHx8fDA%3D"
+          class="jounal-pic-two"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGpvdXJuYWxpbmd8ZW58MHx8MHx8fDA%3D"
+          class="journal-pic-three"
+        />
+        <img
+          src="https://plus.unsplash.com/premium_photo-1683543124672-6cbc571d1f31?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjF8fGpvdXJuYWxpbmd8ZW58MHx8MHx8fDA%3D"
+          class="journal-pic-four"
+        />
+      </div>
+      <p>
+        Journaling is the act of keeping a record of your personal thoughts,
+        feelings, insights, and more. It can be written, drawn, or typed. It can
+        be on paper or on your computer. It’s a simple, low-cost way of
+        improving your mental health. It isn’t easy to start journaling. It can
+        feel like work, and the expectation of writing every day may deter some
+        people. But the positive effects of journaling can be felt even if it’s
+        not done daily.
+      </p>
+      <div class="link">
+        <a
+          href="https://www.webmd.com/mental-health/mental-health-benefits-of-journaling"
+          target="_blank"
+        >
+          📖 Benefits of Journaling</a
+        >
+      </div>
+      <br />
+      <button class="learn-more">Learn to Journal</button>
+    </div>
+    <footer>Coded by April 🖤</footer>
+
+    <script>
+      function changeTheme() {
+        let body = document.querySelector("body");
+
+        if (body.classList.contains("dark")) {
+          body.classList.remove("dark");
+        } else {
+          body.classList.add("dark");
+        }
+      }
+      let themeButton = document.querySelector(".theme-button");
+      themeButton.addEventListener("click", changeTheme);
+
+      function contactUs() {
+        let name = prompt("What is your name?");
+        let email = prompt("What is your email address");
+
+        alert("Great " + name + ", we'll be in touch!");
+      }
+
+      let learnButton = document.querySelector(".learn-more");
+      learnButton.addEventListener("click", contactUs);
+    </script>
+  </body>
+</html>
